@@ -1,21 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
-#
-# Yahoo! Finance market data downloader (+fix for Pandas Datareader)
-# https://github.com/ranaroussi/yfinance
-
-"""
-Sanity check for most common library uses all working
-
-- Stock: Microsoft
-- ETF: Russell 2000 Growth
-- Mutual fund: Vanguard 500 Index fund
-- Index: S&P500
-- Currency BTC-USD
-"""
-
 import yfinance as yf
-
 
 symbols = ['MSFT', 'IWO', 'VFINX', '^GSPC', 'BTC-USD']
 tickers = [yf.Ticker(symbol) for symbol in symbols]
@@ -45,4 +28,54 @@ class TestTicker:
             assert(ticker.institutional_holders is not None)
 
 
+msft = yf.Ticker("MSFT")
 
+# get stock info
+msft.info
+#print(msft.info)
+
+# get historical market data
+hist = msft.history(period="max")
+
+
+# show actions (dividends, splits)
+msft.actions
+
+# show dividends
+msft.dividends
+
+# show splits
+msft.splits
+
+# show financials
+msft.financials
+msft.quarterly_financials
+# show major holders
+msft.major_holders
+# show institutional holders
+msft.institutional_holders
+# show balance sheet
+msft.balance_sheet
+msft.quarterly_balance_sheet
+# show cashflow
+msft.cashflow
+msft.quarterly_cashflow
+print(msft.quarterly_cashflow)
+# show earnings
+msft.earnings
+msft.quarterly_earnings
+# show sustainability
+msft.sustainability
+# show analysts recommendations
+msft.recommendations
+# show next event (earnings, etc)
+msft.calendar
+# show ISIN code - *experimental*
+# ISIN = International Securities Identification Number
+msft.isin
+# show options expirations
+msft.options
+
+# get option chain for specific expiration
+#opt = msft.option_chain('YYYY-MM-DD')
+# data available via: opt.calls, opt.puts
