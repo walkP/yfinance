@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, ckhurana@ualberta.ca <br>
 **Christian Arbelaez**† \*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, carbelae@ualberta.c<br>
-**Scott Kavalinas**† \*<br>
+**Scott Kavalinas**†<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, skavalin@ualberta.ca <br>
 **Walker Peters**†<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, wpeters@ualberta.ca <br>
@@ -30,7 +30,7 @@ to thoroughly test the functionality contained in this section of code and uncov
 | Ji Heon Kim        | Testing & Documentation |
 | Chirag Khura       | None  |
 | Christian Arbelaez | None  |
-| Scott Kavalinas    | None  |
+| Scott Kavalinas    | Testing & Documentation  |
 | Walker Peters      | Testing & Documentation  |
 
 
