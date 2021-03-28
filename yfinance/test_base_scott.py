@@ -3,42 +3,22 @@ import base
 import utils
 import yfinance as yf
 
-testNULL = False
 
 finList=['MSFT', 'IWO', 'VFINX', '^GSPC', 'BTC-USD',"ENE"]
-tick = yf.Ticker(finList[0])
+tick = finList[-1]
 
-if testNULL:
-    testFinancials = {
-        "yearly": tick.cashflow,
-        "quarterly": utils.empty_df()}
-    testBalancesheet = {
-        "yearly": utils.empty_df(),
-        "quarterly": utils.empty_df()}
-    testCashflow = {
-        "yearly": utils.empty_df(),
-        "quarterly": utils.empty_df()}
 
-else:
-    testFinancials = {
-        "yearly": tick.financials,
-        "quarterly": tick.quarterly_financials}
-    testBalancesheet = {
-        "yearly": tick.balance_sheet,
-        "quarterly": tick.balance_sheet}
-    testCashflow = {
-        "yearly": tick.cashflow,
-        "quarterly": tick.quarterly_cashflow}
+
+
 
 
 class TestGenericPatterns(unittest.TestCase):
 
-
        
     # testing if data is a dict type
     def test_is_dict(self):
-        finList=['MSFT', 'IWO', 'VFINX', '^GSPC', 'BTC-USD',"ENE"]
-        self.stock = base.TickerBase('MSFT')
+        
+        self.stock = base.TickerBase(tick)
         empty_dict = dict()
         data = self.stock.generic_patterns(dict())
         self.assertTrue(isinstance(data, dict))
@@ -46,12 +26,18 @@ class TestGenericPatterns(unittest.TestCase):
        
     # testing if loop is being handled properly
     def test_loop(self):
-        
+        self.stock = base.TickerBase(tick)
         data = {}
         alist = []
-        _financials =testFinancials
-        _balancesheet = testBalancesheet
-        _cashflow =testCashflow
+        _financials = {
+            "yearly": self.stock.get_financials(),
+            "quarterly": self.stock.get_financials(freq='quarterly')}
+        _balancesheet = {
+            "yearly": self.stock.get_balancesheet(),
+            "quarterly": self.stock.get_balancesheet(freq='quarterly')}
+        _cashflow = {
+            "yearly": self.stock.get_cashflow(),
+            "quarterly": self.stock.get_cashflow(freq='quarterly')}
         for key in (
             (_cashflow, 'cashflowStatement', 'cashflowStatements'),
             (_balancesheet, 'balanceSheet', 'balanceSheetStatements'),
@@ -69,11 +55,18 @@ class TestGenericPatterns(unittest.TestCase):
 
     # testing if item doesn't exist in the data dictionary
     def test_switch_statement(self):
+        self.stock = base.TickerBase(tick)
         data = {}
         msg = ""
-        _financials =testFinancials
-        _balancesheet = testBalancesheet
-        _cashflow =testCashflow
+        _financials = {
+            "yearly": self.stock.get_financials(),
+            "quarterly": self.stock.get_financials(freq='quarterly')}
+        _balancesheet = {
+            "yearly": self.stock.get_balancesheet(),
+            "quarterly": self.stock.get_balancesheet(freq='quarterly')}
+        _cashflow = {
+            "yearly": self.stock.get_cashflow(),
+            "quarterly": self.stock.get_cashflow(freq='quarterly')}
         for key in (
             (_cashflow, 'cashflowStatement', 'cashflowStatements'),
             (_balancesheet, 'balanceSheet', 'balanceSheetStatements'),
