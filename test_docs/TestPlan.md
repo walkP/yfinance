@@ -53,6 +53,9 @@ to thoroughly test the functionality contained in this section of code and uncov
 - Pull Request #497 (https://github.com/ranaroussi/yfinance/pull/497)
 - Pull Request #174 (https://github.com/ranaroussi/yfinance/pull/174)
 
+**2.3 Planned Tests**<br>
+- We plan to test the functionality related to open issues #619, #167, and #163 (`KeyError: "['maxAge'] not found in axis"`)
+- We also plan to test the functionality related to open issues #172, and #150 (`KeyError: 'cashflowStatements'`)
 
 ## Assumptions / Risks
 **3.1 Assumptions**<br>
