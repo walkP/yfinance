@@ -3,9 +3,9 @@
 ## yfinance Group #5 (line 378 to 391)
 **Ji Heon Kim**†<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, jiheon@ualberta.ca<br>
-**Chirag Khurana**† \*<br>
+**Chirag Khurana**†<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, ckhurana@ualberta.ca <br>
-**Christian Arbelaez**† \*<br>
+**Christian Arbelaez**†<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, carbelae@ualberta.c<br>
 **Scott Kavalinas**†<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, skavalin@ualberta.ca <br>
@@ -13,7 +13,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, wpeters@ualberta.ca <br>
 
 *† Undergraduate student.*<br>
-*\* Did not contribute to this repo.*
 
 
 ## Introduction
