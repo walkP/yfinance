@@ -8,7 +8,7 @@
 **File Used to Test:** test_yfinance.py<br><br>
 
 **TEST SCRIPT STEPS/RESULTS**
-| Step | Test Step/Input                                  | Expected Results                      | Actual Results |
+| Step | Test Step/Input                                  | Expected Results                      | Results        |
 |------|--------------------------------------------------|---------------------------------------|----------------|
 | 1    | Navigate to the root directory and run Python    | Python shell runs                     | pass           |
 | 2.   | Instantiate a ticker with either "ACGL" or "SFL" | ticker is created successfully        | pass           |
