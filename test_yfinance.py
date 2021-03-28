@@ -6,6 +6,7 @@
 
 """
 Sanity check for most common library uses all working
+
 - Stock: Microsoft
 - ETF: Russell 2000 Growth
 - Mutual fund: Vanguard 500 Index fund
