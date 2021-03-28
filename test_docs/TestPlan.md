@@ -42,6 +42,7 @@ to thoroughly test the functionality contained in this section of code and uncov
 - GitHub Issue #167 (https://github.com/ranaroussi/yfinance/issues/167)
 - GitHub Issue #163 (https://github.com/ranaroussi/yfinance/issues/163)
 - GitHub Issue #150 (https://github.com/ranaroussi/yfinance/issues/150)
+- GitHub Issue #191 (https://github.com/ranaroussi/yfinance/issues/191)
 
 **Closed**
 - GitHub Issue #275 (https://github.com/ranaroussi/yfinance/issues/275)
