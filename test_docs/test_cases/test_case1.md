@@ -5,6 +5,7 @@
 **Purpose:** Calling Ticker.info on certain stocks results in `KeyError: "['maxAge'] not found in axis"`. We want to investigate the cause of this problem and uncover any bugs.<br>
 **Tester Name(s):** Walker Peters, Ji Heon Kim<br>
 **Date(s) of Test:** March 25-28<br><br>
+**File Used to Test:** Test_yfinance.py
 
 **TEST SCRIPT STEPS/RESULTS**
 | Step | Test Step/Input                                             | Expected Results                      | Actual Results |
