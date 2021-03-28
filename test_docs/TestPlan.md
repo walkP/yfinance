@@ -3,16 +3,17 @@
 ## yfinance Group #5 (line 378 to 391)
 **Ji Heon Kim**†<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, jiheon@ualberta.ca<br>
-**Chirag Khurana**†<br>
+**Chirag Khurana**† \*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, ckhurana@ualberta.ca <br>
-**Christian Arbelaez**†<br>
+**Christian Arbelaez**† \*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, carbelae@ualberta.c<br>
-**Scott Kavalinas**†<br>
+**Scott Kavalinas**† \*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, skavalin@ualberta.ca <br>
 **Walker Peters**†<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Department of Computer Science, University of Alberta, Edmonton, Alberta, Canada, wpeters@ualberta.ca <br>
 
-*† Undergraduate student.*
+*† Undergraduate student.*<br>
+*\* Did not contribute to this repo.*
 
 
 ## Introduction
@@ -26,11 +27,11 @@ to thoroughly test the functionality contained in this section of code and uncov
 **1.2 Team Members**<br>
 | Name               | Role     |
 |--------------------|----------|
-| Ji Heon Kim        | Testing  |
-| Chirag Khura       | Testing  |
-| Christian Arbelaez | Testing  |
-| Scott Kavalinas    | Testing  |
-| Walker Peters      | Testing  |
+| Ji Heon Kim        | Testing & Documentation |
+| Chirag Khura       | None  |
+| Christian Arbelaez | None  |
+| Scott Kavalinas    | None  |
+| Walker Peters      | Testing & Documentation  |
 
 
 ## Research and Screening
