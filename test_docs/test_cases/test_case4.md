@@ -1,8 +1,8 @@
 ## System Test Case
 **yfinance**<br><br>
-**USER STORY:** Getting info on whether the type yf.Ticker("MSFT") is dict or not
+**USER STORY:** Getting info on whether yf.Ticker("SFL") has info on "shortName"
 
-**Purpose:** Calling yf.Ticker to compare the type of Ticker and an empty dict `Attributes in yf.Ticker("MSFT") as dict`. We want to investigate the cause of this problem and uncover any bugs.<br>
+**Purpose:** Calling yf.Ticker("SFL") to test if yf.Ticker("SFL").info has a key "shortName" and a value for it `Error when using ticker.info`. We want to investigate the cause of this problem and uncover any bugs.<br>
 **Tester Name(s):** Walker Peters, Ji Heon Kim, Scott Kavalinas<br>
 **Date(s) of Test:** March 25-28<br>
 **File Used to Test:** Test_yfinance.py<br><br>
