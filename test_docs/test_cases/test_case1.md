@@ -9,6 +9,6 @@
 **TEST SCRIPT STEPS/RESULTS**
 | Step | Test Step/Input                                             | Expected Results                      | Actual Results |
 |------|-------------------------------------------------------------|---------------------------------------|----------------|
-| 1    | Navigate to the root directory and run Python               | Python shell runs                     |                |
-| 2.   | Instantiate a ticker with either "HTOO", "MSFT", or "BNKO"  | ticker is created successfully        |                |
-| 3.   | Get the stock info by typing `ticker.info'                  | ticker info is successfully displayed |                |
+| 1    | Navigate to the root directory and run Python               | Python shell runs                     | pass           |
+| 2.   | Instantiate a ticker with either "HTOO", "MSFT", or "BNKO"  | ticker is created successfully        | N/A            |
+| 3.   | Get the stock info by typing `ticker.info'                  | ticker info is successfully displayed | pass           |
