@@ -13,4 +13,3 @@
 |------|----------------------------------------------------------------------|---------------------------------------|----------------|
 | 1    | Navigate to the root directory and run python yfinance/emptyTest.py  | Python shell runs                     | pass           |
 | 2.   | allow code to run for 2 tickers "MSFT" and 'ENE'(delisted)           | Financial statements are not empty.   | fail           |
-
