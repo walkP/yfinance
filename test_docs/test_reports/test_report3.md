@@ -6,7 +6,7 @@ March 28, 2021<br>
 **Test Stage:** Unit<br>
 **Test Date:** 03/28/21<br>
 **Tester:** Walker Peters, Ji Heon Kim, Scott Kavalinas<br>
-**Test Case Number:** test_case3<br>
+**Test Case Number:** [test_case3](../test_cases/test_case3.md)<br>
 **Test Case Description:** Test to to compare the type of Ticker and an empty dict<br>
 **Result:** Pass<br>
 
