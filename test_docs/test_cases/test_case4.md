@@ -5,7 +5,7 @@
 **Purpose:** Calling yf.Ticker("SFL") to test if yf.Ticker("SFL").info has a key "shortName" and a value for it `Error when using ticker.info`. We want to investigate the cause of this problem and uncover any bugs.<br>
 **Tester Name(s):** Walker Peters, Ji Heon Kim, Scott Kavalinas<br>
 **Date(s) of Test:** March 25-28<br>
-**File Used to Test:** Test_yfinance.py<br><br>
+**File Used to Test:** test_yfinance.py<br><br>
 
 **TEST SCRIPT STEPS/RESULTS**
 | Step | Test Step/Input                                             | Expected Results                      | Results        |
