@@ -6,7 +6,7 @@ March 28, 2021<br>
 **Test Stage:** Unit<br>
 **Test Date:** 03/28/21<br>
 **Tester:** Walker Peters, Ji Heon Kim, Scott Kavalinas<br>
-**Test Case Number:** test_case5<br>
+**Test Case Number:** [test_case5](../test_cases/test_case5.md)<br>
 **Test Case Description:** Testing the functionality related to empty stock dataframes. User should be notified of an error rather than receiving empty data.<br>
 **Result:** Fail<br>
 
