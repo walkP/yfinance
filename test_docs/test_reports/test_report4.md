@@ -6,7 +6,7 @@ March 28, 2021<br>
 **Test Stage:** Unit<br>
 **Test Date:** 03/28/21<br>
 **Tester:** Walker Peters, Ji Heon Kim, Scott Kavalinas<br>
-**Test Case Number:** test_case3<br>
+**Test Case Number:** test_case4<br>
 **Test Case Description:** Test if yf.Ticker("SFL").info has a key and value for"shortName"<br>
 **Result:** Pass<br>
 
