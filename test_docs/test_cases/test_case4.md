@@ -11,5 +11,5 @@
 | Step | Test Step/Input                                             | Expected Results                      | Results        |
 |------|-------------------------------------------------------------|---------------------------------------|----------------|
 | 1    | Navigate to the root directory and run Python               | Python shell runs                     | pass           |
-| 2.   | Instantiate a ticker with "MSFT"                            | ticker is created successfully        | pass           |
+| 2.   | Instantiate a ticker with "SFL"                             | ticker is created successfully        | pass           |
 | 3.   | Get info on ticker.info to test if value exists             | ticker type is successfully tested    | pass           |
