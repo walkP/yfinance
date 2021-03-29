@@ -3,12 +3,12 @@
 March 28, 2021<br>
 
 ### General Information
-**Test Stage:** *Unit*<br>
-**Test Date:** *03/28/21*<br>
-**Tester:** *Walker Peters, Ji Heon Kim, Scott Kavalinas*<br>
-**Test Case Number:** *test_case1*<br>
-**Test Case Description:** *Ensuring that the cleanup function doesn't fail when calling Ticker.info on certain stocks*<br>
-**Result:** *Pass*<br>
+**Test Stage:** Unit<br>
+**Test Date:** 03/28/21<br>
+**Tester:** Walker Peters, Ji Heon Kim, Scott Kavalinas<br>
+**Test Case Number:** test_case1<br>
+**Test Case Description:** Ensuring that the cleanup function doesn't fail when calling Ticker.info on certain stocks<br>
+**Result:** Pass<br>
 
 ### Introduction
 **Requirements:** Does not require specific software<br>
