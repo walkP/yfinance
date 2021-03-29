@@ -1,8 +1,6 @@
 import unittest
 import base
 import utils
-import yfinance as yf
-
 
 
 finList=['MSFT', 'shgsajnszxjmsrkjsrk','msft', 'ENE', 'AAPL', 'BTC-USD','AC']
